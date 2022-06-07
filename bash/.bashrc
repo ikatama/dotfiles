@@ -18,4 +18,5 @@ alias dc="docker-compose"
 alias ..="cd .."
 alias grep="grep --color=auto"
 alias python='python3'
+alias here="explorer.exe ."
 
