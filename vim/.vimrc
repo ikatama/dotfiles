@@ -25,6 +25,7 @@ set cursorline
 set autoread
 set mouse=a
 set foldlevel=50
+set virtualedit=onemore
 set wildmenu
 
 set backup
