@@ -14,9 +14,8 @@ export PS1='\[\033[1;36m\]\u\[\033[00m\]:\[\033[1;34m\]\w \[\033[1;31m\]$(__git_
 alias ls="ls -F --color=auto"
 alias la="exa -aF"
 alias ll="exa -alh --git --icons"
-alias dc="docker-compose"
+alias tree="exa -aFT --icons"
 alias ..="cd .."
 alias grep="grep --color=auto"
 alias python='python3'
-alias here="explorer.exe ."
 
