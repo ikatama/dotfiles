@@ -3,6 +3,7 @@ if [ -f ~/.bashrc ]; then
 fi
 
 export PATH="$HOME/.linuxbrew/bin:$PATH"
+export PATH="$HOME/.cargo/env:$PATH"
 export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
@@ -43,3 +44,4 @@ ColorReset='\[\e[0m\]'
 ColorRed='\[\e[0;31m\]'
 # \e[0;32m\ sets the color to green
 ColorGreen='\[\e[0;32m\]' 
+
