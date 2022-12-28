@@ -137,6 +137,6 @@ inoremap <Right> <Nop>
 " Color Scheme
 
 syntax on
-colorscheme hybrid 
+colorscheme hybrid
 set background=dark
 
