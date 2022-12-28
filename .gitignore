@@ -1,3 +1,17 @@
-vim/.cache/
-vim/.vim/tmp/
+# all ignore
+*
+*/
+
+# not ignore
+!.gitconfig
+!.gitignore
+!init.sh
+!bash/.bash_profile
+!bash/.bashrc
+!bash/.git-completion
+!bash/.git-prompt.sh
+!starship/starship.toml
+!vim/.vimrc
+!vim/dein.toml
+!vim/dein_lazy.toml
 
