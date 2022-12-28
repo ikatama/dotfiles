@@ -17,3 +17,7 @@
 !vim/dein.toml
 !vim/dein_lazy.toml
 
+# ignore sub directory
+vim/.cache/
+vim/.vim/
+
