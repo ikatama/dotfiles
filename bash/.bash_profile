@@ -8,6 +8,7 @@ export PATH="$HOME/.cargo/env:$PATH"
 export MANPATH="$HOME/.linuxbrew/share/man:$MANPATH"
 export INFOPATH="$HOME/.linuxbrew/share/info:$INFOPATH"
 export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
+export HISTFILE="$HOME/dotfiles/bash/.bash_history"
 export HISTTIMEFORMAT='%F %T '
 
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
