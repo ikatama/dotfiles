@@ -16,7 +16,7 @@ $line_break\
 $character"""
 
 [character]
-success_symbol = "🪡"
+success_symbol = "🍬"
 
 [directory]
 truncation_length = 0
