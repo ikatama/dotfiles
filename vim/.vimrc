@@ -1,5 +1,5 @@
 " shell
-set shell=/bin/bash
+"set shell=/bin/bash
 
 " encoding
 set encoding=utf8
@@ -16,7 +16,6 @@ set t_Co=256
 let mapleader=" "
 
 set number
-set viminfo=
 set clipboard+=unnamed
 set belloff=all
 set title
@@ -25,14 +24,15 @@ set cursorline
 set autoread
 set mouse=a
 set foldlevel=50
+set shellslash
 set virtualedit=onemore
 set wildmenu
 
 set backup
-set noswapfile
 set backupdir=$HOME/dotfiles/vim/.vim/tmp/backup/
 set undodir=$HOME/dotfiles/vim/.vim/tmp/undo/
 set directory=$HOME/dotfiles/vim/.vim/tmp/swap/
+set viminfo+=n$HOME/dotfiles/vim/.vim/tmp/.viminfo
 
 silent! call MakeDirIfNoExists(&undodir)
 silent! call MakeDirIfNoExists(&backupdir)
