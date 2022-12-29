@@ -8,6 +8,7 @@
 !.gitconfig
 !.gitignore
 !init.sh
+!mklink.bat
 !bash/.bash_profile
 !bash/.bashrc
 !bash/.git-completion
