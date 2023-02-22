@@ -9,6 +9,8 @@ else
     brew install fd
     brew install exa
     brew install bat
+    brew install docker
+    brew install git
 fi
 
 DOTFILE = "$HOME/dotfiles"
