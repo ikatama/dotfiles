@@ -11,10 +11,13 @@ else
     brew install bat
     brew install docker
     brew install git
+    brew install neovim
 fi
 
-DOTFILE = "$HOME/dotfiles"
-ln -sf DOTFILE/vim/.vimrc ~/.vimrc
-ln -sf DOTFILE/bash/.bashrc ~/.bashrc
-ln -sf DOTFILE/bash/.bash_profile ~/.bash_profile
+DOTFILE="$HOME/dotfiles"
+ln -sf $DOTFILE/vim/.vimrc ~/.config/nvim/init.sh
+ln -sf $DOTFILE/bash/.bashrc ~/.bashrc
+ln -sf $DOTFILE/bash/.bash_profile ~/.bash_profile
+
+echo "Completed!"
 
