@@ -42,4 +42,3 @@ silent! call MakeDirIfNoExists(&directory)
 " --- key remap -----
 inoremap jk <ESC>
 
-
