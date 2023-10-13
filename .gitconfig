@@ -2,8 +2,11 @@
 	name = ikatama
 	email = ikatama@example.com
 [credential]
-	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
+    helper = /usr/bin/git/mingw64/libexec/git-core/git-credential-manager-core.exe
 [alias]
     graph = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+	alias = config --get-regexp ^alias\\.
+	oneline = log --oneline
 [color]
 	ui = auto
+
