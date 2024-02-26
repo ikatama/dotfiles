@@ -48,3 +48,4 @@ ColorRed='\[\e[0;31m\]'
 # \e[0;32m\ sets the color to green
 ColorGreen='\[\e[0;32m\]' 
 
+. "$HOME/.cargo/env"

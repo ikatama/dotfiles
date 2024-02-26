@@ -23,9 +23,3 @@ alias lcd="cd $(\ls -d */ | peco)"
 # ssh-agentの実行
 eval "$(ssh-agent)" 1> /dev/null
 
-. "$HOME/.cargo/env"
-
-if [ -n "$(which nvim)" ]; then
-    brew install nvim;
-fi
-
