@@ -15,19 +15,16 @@ colorscheme hybrid
 
 call jetpack#end()
 
-" --- python -----
-let g:python_host_prog = '/mnt/c/Users/haled/AppData/Local/Programs/Python/Python310/python.exe'
-let g:python3_host_prog = '/mnt/c/Users/haled/AppData/Local/Programs/Python/Python310/python.exe'
-
 " --- basic -----
 set number
 set title
-syntax on
+syntax enable
 set encoding=utf-8
 set expandtab
 set smartindent
 set shiftwidth=4
 set tabstop=4
+set background=dark
 
 set backup
 set backupdir=$HOME/dotfiles/vim/.vim/tmp/backup/
