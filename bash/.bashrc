@@ -18,7 +18,7 @@ alias tree="eza -aFT --icons"
 alias ..="cd .."
 alias grep="grep --color=auto"
 alias python='python3'
-alias lcd="cd $(\ls -d */ | peco)"
+alias lcd="cd $(\ls -aF | grep / | peco)"
 
 # ssh-agentの実行
 eval "$(ssh-agent)" 1> /dev/null
